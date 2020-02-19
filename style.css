@@ -1,105 +1,197 @@
 body{
-  
   font-family: 'Roboto', sans-serif;
-  
-  
-}
-
-#container_principal{
   display: flex;
   flex-wrap: wrap;
-  margin-left: 15%;
-  margin-right: 15%;
+
+}
+
+/********************* PARTIE DROIT******************************/
+
+.content{
+  flex: 1.5;
+  min-height: 568px;
   border: solid 1px lightgray;
 }
 
-aside{
-  display: flex ;
-  flex-direction: column;
-  background-color: #0277BD;
-  flex: 0.5;
-  color: #ffff;
-}
-
-.photo{
-  text-align: center;
-    margin-top: 20px;
-
-}
-
-.photo img{
-  height: 120px;
-  width: 130px;
-  border-radius: 50%;
-
-}
-
-.contact h2{
-  text-align: center;
-  background-color:#C51162;
-  padding: 3px;
-}
-
-.contact p{
-  font-size: smaller;
-  padding-left: 10px;
-}
-
-.about_me h2{
-  text-align: center;
-  background-color:#C51162;
-  padding: 3px;
-}
-
-.about_me p{
-  font-size: smaller;
-  text-align: center;
-}
-
 article{
-  display: flex ;
-  flex-direction: column;
-  min-height: 568px;
-  flex: 2;
+  padding-left: 15%;
+  
+}
+article p {
+  font-size: smaller;
 }
 
-.titre, .formation_container{
-  padding-left: 100px;
-}
-.icon_titre{
-  margin-right: 60px;
-}
-.titre h1{
-  font-size: xxx-large;
+/************************HEADER********************************/
+
+header h1{
+  font-size: xx-large;
 color: mediumvioletred;
 }
 
-.titre p{
-  margin-top: -51px;
+header strong {
+  color: black;
+}
+
+header p{
+  margin-top: -30px;
   font-size: x-large;
     letter-spacing: 5px;
     color: darkgray;
 }
 
-h1 strong {
-  color: black;
+i{
+  margin-right: 10px;
+  color: mediumvioletred;
 }
 
-.formation_container{
-  display: flex;
-  flex-direction: column;
+#ligne{
+  border-bottom: mediumvioletred solid 1px;
+  width: 70%;
+  
 }
 
-.formation_1{
+#titre_secondaire{
+  color: mediumvioletred;
+  font-weight: 600;
+}
+
+.texte{
+  padding-left: 60px;
+  color: grey;
+}
+
+.texte strong{
+  color: black !important;
+}
+
+.items_container{
   display: flex;
   
 }
 
-.texte{
-  margin-left: 68px;
-  color: gray;
+.items_titre h2{
+  font-weight: 500;
+  
 }
 
-.texte strong{
-  color: black;
+.section{
+  margin-top: 80px;
+}
+
+
+
+
+/*********************************EXPERIENCE*******************************/
+
+
+
+/********************* PARTIE GAUCHE******************************/
+nav p{
+  color: #ffffff;
+}
+
+h2{
+  color: #ffffff;
+  text-align: center;
+  background-color: mediumvioletred;
+}
+
+nav{
+  flex : 0.3;
+  background-color: #0277BD;
+  display: flex;
+  flex-direction: column;
+
+
+}
+
+.contact_contenus{
+  margin-top: 50px;
+}
+
+.contact_contenus p{
+  padding-left: 20px;
+}
+
+.photo
+{
+  margin-top: 50px;
+align-self: center;
+}
+
+img{
+  height: 150px;
+  width: 130px;
+  border-radius: 50%;
+  align-self: center;
+}
+
+.about_me{
+  margin-top: 50px;
+}
+
+.about_me p{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.loisirs{
+  margin-top: 700px;
+}
+
+.icon{
+  display: flex;
+  justify-content: center;
+}
+
+.icon i{
+  color: #ffffff;
+  font-size: 28px;
+}
+
+@media (max-width: 768px) { 
+
+body{
+  flex-wrap: wrap-reverse;
+}
+
+/*PARTIE HAUT///////////////////////////*/
+
+  nav{
+    flex: 1!important;
+    margin-top: 20px;
+    
+  }
+
+  h3{
+    text-align: center;
+  }
+  .loisirs{
+    margin-top: 0px;
+    margin-bottom: 30px;
+
+  }
+
+  .about_me p {
+    text-align: center;
+  }
+
+  .contact_contenus p{
+    text-align: center;
+  }
+  
+
+  header h1, header p {
+    text-align: center;
+    margin-top: 10px;
+  }
+
+.date{
+  display: none;
+}
+
+  .texte{
+  padding-left: 0px;
+  }
+
 }
