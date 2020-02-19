@@ -149,6 +149,8 @@ img{
   font-size: 28px;
 }
 
+/**************************MOBILE DESIGN***************************/
+
 @media (max-width: 768px) { 
 
 body{
@@ -179,6 +181,17 @@ body{
   .contact_contenus p{
     text-align: center;
   }
+
+
+  /******************************PARTIE BAS**********************************/
+
+.content{
+  border: none;
+}
+
+article{
+  padding-left: 0%;
+}
   
 
   header h1, header p {
