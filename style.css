@@ -14,7 +14,7 @@ body{
 }
 
 article{
-  padding-left: 15%;
+  padding-left: 5%;
   
 }
 article p {
@@ -42,6 +42,10 @@ header p{
 i{
   margin-right: 10px;
   color: mediumvioletred;
+}
+
+.date{
+  width: 10%;
 }
 
 #ligne{
@@ -151,7 +155,7 @@ img{
 
 /**************************MOBILE DESIGN***************************/
 
-@media (max-width: 768px) { 
+@media (max-width: 767px) { 
 
 body{
   flex-wrap: wrap-reverse;
@@ -175,7 +179,11 @@ body{
   }
 
   .about_me p {
-    text-align: center;
+    display: none;
+  }
+
+  .contact_contenus{
+    margin-top: 5px;
   }
 
   .contact_contenus p{
@@ -207,4 +215,8 @@ article{
   padding-left: 0px;
   }
 
+
+
 }
+
+/********************************TABLETTE DESIGN****************************************/
