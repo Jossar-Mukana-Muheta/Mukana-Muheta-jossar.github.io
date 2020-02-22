@@ -48,13 +48,13 @@ i{
   width: 10%;
 }
 
-#ligne{
+.ligne{
   border-bottom: mediumvioletred solid 1px;
   width: 70%;
   
 }
 
-#titre_secondaire{
+.titre_secondaire{
   color: mediumvioletred;
   font-weight: 600;
 }
