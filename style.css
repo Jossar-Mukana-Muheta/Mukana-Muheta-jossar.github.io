@@ -23,6 +23,10 @@ article p {
 
 /************************HEADER********************************/
 
+header{
+  background-color: #EDEFF8;
+}
+
 header h1{
   font-size: xx-large;
 color: mediumvioletred;
@@ -86,6 +90,9 @@ i{
   margin-top: 80px;
 }
 
+.formation ,.experiences, footer{
+  background-color: #F7F8FC;
+}
 
 
 /********************* PARTIE GAUCHE******************************/
