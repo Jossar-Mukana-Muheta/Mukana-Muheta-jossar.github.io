@@ -117,6 +117,7 @@ nav{
 
 .contact_contenus{
   margin-top: 50px;
+  
 }
 
 .contact_contenus p{
@@ -199,12 +200,22 @@ body{
   .loisirs{
     margin-top: 0px;
     margin-bottom: 30px;
+    order: 1;
 
+  }
+  .about_me{
+    order: 1;
+    margin-top: 1px;
+  }
+
+  .photo{
+    order: 3;
   }
 
 
   .contact_contenus{
     margin-top: -70px;
+    order: 3;
   }
 
   .contact_contenus p{
