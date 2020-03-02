@@ -43,13 +43,16 @@ header p{
     color: darkgray;
 }
 
+
+/*************************SECTION FORMATION / EXPERIENCE / RECOMMANDATION***************************************/
 i{
   margin-right: 10px;
   color: mediumvioletred;
 }
 
 .date{
-  width: 10%;
+  width: 20%;
+  padding-left: 10px;
 }
 
 .ligne{
@@ -64,7 +67,7 @@ i{
 }
 
 .texte{
-  padding-left: 60px;
+  padding-left: 3.75em;
   color: grey;
 }
 
@@ -165,7 +168,6 @@ img{
 /**************************MOBILE DESIGN***************************/
 
 @media (max-width: 767px) { 
-
 body{
   flex-wrap: wrap-reverse;
 }
@@ -204,8 +206,8 @@ body{
 
   }
   .about_me{
+    margin-top: -19px;
     order: 1;
-    margin-top: 1px;
   }
 
   .photo{
